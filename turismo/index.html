@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELICIAS CASERAS</title>
+    <link rel ="icon"  href="imagenes/empanada1.jfif">
+    <link rel="stylesheet" href="styles.css">
+    <script src="styles.css"></script>
+    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Enlazamos el archivo JS -->
+</head>
+<main style="text-align: center; padding: 2rem;">
+  
+<body>
+    
+    <header class="encabezado">
+        
+        
+        <h1 style="text-align: center;">DELICIAS CASERAS</h1>
+        <nav>
+            <ul>
+                <li><a href="#PRODUCTOS"><button>INICIO DE SESION</button></a></li>
+                <li><a href="#PRODUCTOS"><button>REGISTRO</button></a></li>
+                <li><a href="#PRODUCTOS"><button>PRODUCTOS</button></a></li>
+                <li><a href="#contacto"><button>CONTACTOS</button></a></li>
+                <li><a href="#servicios"><button>SEVICIOS</button></a></li>
+                <a target="_blank" class="fcc-btn" href="https://www.freecodecamp.org/"><button>PAGINA-2</button></a> 
+                <li><a href="../index.html" class="btn">← Volver al Inicio</a></li> 
+            </ul>
+        </nav>
+    </header>
+   
+    <!--<aside>
+        hola este es un metodo de mostrar anuncios
+    </aside>-->
+    
+    <h1>PRODUCTOS</h1>
+    <section id="PRODUCTOS">
+        <h2>COMIDA</h2>
+        <div class="producto">
+            <img src="imagenes/empanada2.jfif" alt="Empanada" class="rotate-img" id="img-rotate">
+            <h3>Empanadaaaaaaaaa</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <!--<nav class="contacto">
+            <img src="arepa1.jfif" alt="Arepa Rellena">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </nav>-->
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena" class="rotate-img" id="img-rotate">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena" class="rotate-img" id="img-rotate">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena" class="rotate-img" id="img-rotate">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/empanada2.jfif" alt="Empanada" class="rotate-img" id="img-rotate">
+            <h3>Empanada</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena" class="rotate-img" id="img-rotate">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/empanada2.jfif" alt="Empanada">
+            <h3>Empanada</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/empanada2.jfif" alt="Empanada">
+            <h3>Empanada</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/empanada2.jfif" alt="Empanada">
+            <h3>Empanada</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/empanada2.jfif" alt="Empanada">
+            <h3>Empanada</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/arepa1.jfif" alt="Arepa Rellena">
+            <h3>Arepa Rellena</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+    </section>
+    <section id="productos">
+        <h2>BEBIDAS</h2>
+        <div class="producto">
+            <img src="imagenes/jugodenaranja.jpg" alt="Empanada">
+            <h3>jugo de naranja</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebia1.jpg" alt="Arepa Rellena">
+            <h3>jugo de mandsarina</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebida2.jpg" alt="Arepa Rellena">
+            <h3>jugo de maracuya</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebida3.jpg" alt="Arepa Rellena">
+            <h3>jugo de fruta amarilla</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/jugodenaranja.jpg" alt="Empanada">
+            <h3>jugo de naranja</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebia1.jpg" alt="Arepa Rellena">
+            <h3>jugo de mandsarina</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebida2.jpg" alt="Arepa Rellena">
+            <h3>jugo de maracuya</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebida3.jpg" alt="Arepa Rellena">
+            <h3>jugo de fruta amarilla</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/jugodenaranja.jpg" alt="Empanada">
+            <h3>jugo de naranja</h3>
+            <p>Deliciosa empanada crujiente con relleno a elección.</p>
+            <button onclick="agregarCarrito('Empanada')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebia1.jpg" alt="Arepa Rellena">
+            <h3>jugo de mandsarina</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebida2.jpg" alt="Arepa Rellena">
+            <h3>jugo de maracuya</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/bebida3.jpg" alt="Arepa Rellena">
+            <h3>jugo de fruta amarilla</h3>
+            <p>Arepa rellena con queso, carne o pollo.</p>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </div>
+        <nav class="producto">
+            <img src="imagenes/bebida3.jpg" alt="Arepa Rellena">
+            <h3>jugo de fruta amarilla</h3>
+            <p>Arepa rellena con queso, carne o polloOOO.</p>
+            <h2>VALOR: $5.500</h2>
+            <button onclick="agregarCarrito('Arepa Rellena')">Agregar</button>
+        </nav>
+    </section>
+    <main>
+        <!-- Categoría: Lácteos -->
+        <section class="categoria" id="lacteos">
+          <h2>COMIDAS</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="arrozconcamaron.jpg" alt="ARROZ">
+              <h3>arroz con camaron</h3>
+              <p>$45.000 PESOS</p>
+            </div>
+            <div class="producto">
+              <img src="img/queso.jpg" alt="Queso">
+              <h3>Queso</h3>
+              <p>$8.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/yogur.jpg" alt="Yogur">
+              <h3>Yogur</h3>
+              <p>$3.500</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Carnes -->
+        <section class="categoria" id="carnes">
+          <h2>Carnes</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/res.jpg" alt="Carne de res">
+              <h3>Carne de res</h3>
+              <p>$25.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/cerdo.jpg" alt="Carne de cerdo">
+              <h3>Carne de cerdo</h3>
+              <p>$22.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/pollo.jpg" alt="Pollo">
+              <h3>Pollo</h3>
+              <p>$18.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Bebidas -->
+        <section class="categoria" id="bebidas">
+          <h2>Bebidas</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/refresco.jpg" alt="Refresco">
+              <h3>Refresco</h3>
+              <p>$3.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/agua.jpg" alt="Agua">
+              <h3>Agua</h3>
+              <p>$2.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/jugo.jpg" alt="Jugo">
+              <h3>Jugo</h3>
+              <p>$3.500</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Abarrotes -->
+        <section class="categoria" id="abarrotes">
+          <h2>Abarrotes</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/arroz.jpg" alt="Arroz">
+              <h3>Arroz</h3>
+              <p>$2.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/frijoles.jpg" alt="Frijoles">
+              <h3>Frijoles</h3>
+              <p>$4.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/aceite.jpg" alt="Aceite">
+              <h3>Aceite</h3>
+              <p>$10.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Frutas -->
+        <section class="categoria" id="frutas">
+          <h2>Frutas</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/manzana.jpg" alt="Manzana">
+              <h3>Manzana</h3>
+              <p>$2.500</p>
+            </div>
+            <div class="producto">
+              <img src="img/banana.jpg" alt="Banana">
+              <h3>Banana</h3>
+              <p>$1.500</p>
+            </div>
+            <div class="producto">
+              <img src="img/naranja.jpg" alt="Naranja">
+              <h3>Naranja</h3>
+              <p>$2.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Verduras -->
+        <section class="categoria" id="verduras">
+          <h2>Verduras</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/tomate.jpg" alt="Tomate">
+              <h3>Tomate</h3>
+              <p>$1.800</p>
+            </div>
+            <div class="producto">
+              <img src="img/lechuga.jpg" alt="Lechuga">
+              <h3>Lechuga</h3>
+              <p>$1.200</p>
+            </div>
+            <div class="producto">
+              <img src="img/zanahoria.jpg" alt="Zanahoria">
+              <h3>Zanahoria</h3>
+              <p>$1.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Panadería -->
+        <section class="categoria" id="panaderia">
+          <h2>Panadería</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/pan.jpg" alt="Pan">
+              <h3>Pan</h3>
+              <p>$800</p>
+            </div>
+            <div class="producto">
+              <img src="img/croissant.jpg" alt="Croissant">
+              <h3>Croissant</h3>
+              <p>$1.200</p>
+            </div>
+            <div class="producto">
+              <img src="img/muffin.jpg" alt="Muffin">
+              <h3>Muffin</h3>
+              <p>$1.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Limpieza -->
+        <section class="categoria" id="limpieza">
+          <h2>Limpieza</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/jabon.jpg" alt="Jabón">
+              <h3>Jabón</h3>
+              <p>$2.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/detergente.jpg" alt="Detergente">
+              <h3>Detergente</h3>
+              <p>$6.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/limpiador.jpg" alt="Limpiador">
+              <h3>Limpiador</h3>
+              <p>$4.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Cuidado Personal -->
+        <section class="categoria" id="cuidado-personal">
+          <h2>Cuidado Personal</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/shampoo.jpg" alt="Shampoo">
+              <h3>Shampoo</h3>
+              <p>$7.000</p>
+            </div>
+            <div class="producto">
+              <img src="img/acondicionador.jpg" alt="Acondicionador">
+              <h3>Acondicionador</h3>
+              <p>$7.500</p>
+            </div>
+            <div class="producto">
+              <img src="img/jaboncito.jpg" alt="Jabón Facial">
+              <h3>Jabón Facial</h3>
+              <p>$5.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+        <!-- Categoría: Congelados -->
+        <section class="categoria" id="congelados">
+          <h2>Congelados</h2>
+          <div class="productos">
+            <div class="producto">
+              <img src="img/helado.jpg" alt="Helado">
+              <h3>Helado</h3>
+              <p>$4.500</p>
+            </div>
+            <div class="producto">
+              <img src="img/vegetales_congelados.jpg" alt="Vegetales Congelados">
+              <h3>Vegetales Congelados</h3>
+              <p>$3.500</p>
+            </div>
+            <div class="producto">
+              <img src="img/comida_congelada.jpg" alt="Comida Congelada">
+              <h3>Comida Congelada</h3>
+              <p>$9.000</p>
+            </div>
+            <!-- Agrega hasta 20 productos -->
+          </div>
+        </section>
+    
+    </main>
+    <footer>
+        
+        <section id="informaciongeneral">
+            <h2>informacion general</h2>
+            <form>
+                <label for="nombre">nombre</label>
+                <input type="text" id="nombre" placeholder="andresxd" >
+                <br><br>
+                <label for="celular">celular</label>
+                <input type="tel" id="celular" placeholder="321 365 3256" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                <br> <br>
+                <label for="correo">correo</label>
+                <input type="text/number" id="correo" placeholder="este@gmail.com" >
+            </form>
+    
+        </section>
+        <section id="CONTACTOS">
+            <h2>Contacto</h2>
+            <br>
+            <p>Teléfono: 123-456-7890</p>
+            <br>
+            <p>Email: contacto@deliciascaseras.com</p>
+            <br>
+            <p>&copy; 2025 - cybertics. todos los derechos reservados</p>
+        </section>
+        <p class="color1">Esta es una empresa que nos muestra una gastronomia muy buena en todos los aspectos</p1>
+    </footer>
+    
+</body>
+</html>
